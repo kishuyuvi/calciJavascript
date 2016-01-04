@@ -34,9 +34,11 @@ function click1(){
     
     function clickplus(){
     document.form.result.value += "+";
+        
 }
     function clickminus(){
     document.form.result.value += "-";
+        document.form.result.style.textAlign="right";
 }
     function clickmul(){
     document.form.result.value += "*";
